@@ -3,7 +3,7 @@
 = gCodeAdSense Sample =
 
 == Without table ==
-<wiki:gadget url="http://gcalbirthdays.googlecode.com/svn/wiki/AdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="GadgetWiki" />
+<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="GadgetWiki" />
 
 == With table ==
 <table border="0">
