@@ -1,0 +1,11 @@
+#summary Howto use gCodeAdSense
+= gCodeAdSense Sample =
+
+<table border="0">
+  <tr>
+    <th align="center" valign="middle">
+      <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" />
+    </th>
+  </tr>
+</table>
+<p>
