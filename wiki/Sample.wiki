@@ -1,4 +1,5 @@
 #summary Howto use gCodeAdSense
+#labels Featured,Sample,Phase-Deploy
 = gCodeAdSense Sample =
 
 <table border="0">
