@@ -21,7 +21,7 @@
 == 2 column table ==
  * Table: Width = 100%
  * Table data 1: Align = left, VAlign = top, Width = 80%
- * Table data 2: Nothing
+ * Table data 2: VAlign = top
 <table width="100%">
   <tr>
     <td align="left" valign="top" width="80%">
@@ -31,7 +31,7 @@
 Maybe You want to present Your project with this layout.
 
     </td>
-    <td>
+    <td valign="top">
      <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="160" height="600" border="0" up_ad_client="3727478741117936" up_ad_slot="7507193440" up_ad_width="160" up_ad_height="600" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
     </td>
   </tr>
