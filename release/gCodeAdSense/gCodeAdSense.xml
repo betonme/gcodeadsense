@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<ModulePrefs 
+		title="gCodeAdSense" 
+		title_url="http://code.google.com/p/gcodeadsense"
+		description="AdSense Gadget for Your Google Code Project"
+		author="Frank Glaser"
+		author_email="glaserfrank@gmail.com">
+	</ModulePrefs>
+	<UserPref name="ad_client"    datatype="string" required="true" />
+	<UserPref name="ad_slot"      datatype="string" required="true" />
+	<UserPref name="ad_width"     datatype="string" required="true" />
+	<UserPref name="ad_height"    datatype="string" required="true" />
+	<UserPref name="ad_keywords"  datatype="string" default_value="" />
+	<Content type="html">
+		<![CDATA[
+			<!--gCodeAdSense V1.00-->
+			<script type="text/javascript">
+				
+				/* Get options */
+				var prefs = new gadgets.Prefs();
+				var options = {
+					ad_client:    prefs.getString("ad_client"),
+					ad_slot:      prefs.getString("ad_slot"),
+					ad_width:     prefs.getString("ad_width"),
+					ad_height:    prefs.getString("ad_height"),
+					ad_keywords:  prefs.getString("ad_keywords"),
+				};
+				
+				<!--Add keywords-->
+				function addKeywords() {
+					var element = document.createElement("div");
+					var attribute = document.createAttribute("style");
+					attribute .nodeValue = "display:none";
+					element.setAttributeNode(attribute);
+					element.innerHTML = options.ad_keywords;
+					var doc = this.document.body;
+					doc.appendChild(element);
+				}
+				
+				/* Add AdSense */
+				function addAdSense() {
+					var element = document.createElement("script");
+					element.type = "text/javascript";
+					element.innerHTML = '<!--\n' +
+						'google_ad_client = "ca-pub-' + options.ad_client + '";\n' +
+						'google_ad_slot   = "' + options.ad_slot + '";\n' +
+						'google_ad_width  = ' + options.ad_width + ';\n' +
+						'google_ad_height = ' + options.ad_height + ';\n' +
+						'//-->';
+					var doc = this.document.body;
+					doc.appendChild(element);
+				}
+				
+				addKeywords();
+				addAdSense();
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			
+			<!--Google Analytics-->
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-23547196-1']);
+				_gaq.push(['_trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+		]]>
+	</Content>
+</Module>
