@@ -6,17 +6,9 @@
 <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
 
 == 1 column table ==
-=== Border = 0 ===
-<table border="0">
-  <tr>
-    <td>
-      <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
-    </td>
-  </tr>
-</table>
-
-=== Width = 100%, Align = right ===
-<table border="0" width=100%>
+ * Table: Width = 100%
+ * Table data: Align = right
+<table width=100%>
   <tr>
     <td align="right">
       <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
@@ -25,11 +17,16 @@
 </table>
 
 == 2 column table ==
-=== Width = 100%, Align = right ===
-<table border="0">
+ * Table: Width = 100%
+ * Table data 1: Align = left, VAlign = top, Width = 80%
+ * Table data 2: Nothing
+<table width="100%">
   <tr>
-    <td>
+    <td align="left" valign="top" width="80%">
       <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="8148541845" up_ad_width="468" up_ad_height="60" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
+    </td>
+    <td>
+     <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="160" height="600" border="0" up_ad_client="3727478741117936" up_ad_slot="7507193440" up_ad_width="160" up_ad_height="600" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
     </td>
   </tr>
 </table>
