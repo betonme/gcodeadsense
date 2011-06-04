@@ -18,5 +18,5 @@ Test Content:
 <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" />
 
 
-No width height up_ad_width up_ad_height
+==No width height up_ad_width up_ad_height==
 <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" />
