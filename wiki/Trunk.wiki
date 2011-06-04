@@ -1,6 +1,9 @@
 #summary Only for depeloper testing
 #labels Deprecated
 
+Test Content:
+TrayPowerSwitch
+A universal Windows application to manage different switchable power strips. It stays in the Windows Taskbar Notification Area and shows the actual outlet state. 
 
 Complete
 <wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" up_ad_keywords="Gadget Wiki JavaScript AdSense" />
