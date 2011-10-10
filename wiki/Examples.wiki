@@ -43,4 +43,4 @@ Maybe You want to present Your project with this layout.
 
 TEST
 
-<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/release/gCodeAdSense/test.xml" width="468" height="60" border="0" URL="http://gcalbirthdays.blogspot.com" />
+<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/test.xml" width="468" height="60" border="0" URL="http://gcalbirthdays.blogspot.com" />
