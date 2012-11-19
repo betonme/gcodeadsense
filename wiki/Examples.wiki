@@ -43,8 +43,9 @@ Maybe You want to present Your project with this layout.
 
 TEST
 
+<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" />
+
+
 <wiki:gadget url="http://hosting.gmodules.com/ig/gadgets/file/117808631063490062819/url.xml" up_URL="http://gcalbirthdays.blogspot.com" up_Title="TEST" up_height="300" up_refresh="60" up_Version="New" />
 
 <wiki:gadget url="http://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/test.xml" up_URL="http://gcalbirthdays.blogspot.com" up_Title="TEST" up_height="300" up_refresh="60" up_Version="New" />
-
-<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" />
