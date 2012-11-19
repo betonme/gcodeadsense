@@ -4,7 +4,7 @@
  Source [http://code.google.com/p/gcodeadsense/source/browse/wiki/Examples.wiki]
 
 == Without table ==
-<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/release/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" />
+<wiki:gadget url="https://gcodeadsense.googlecode.com/svn/trunk/gCodeAdSense/gCodeAdSense.xml" width="468" height="60" border="0" up_ad_client="3727478741117936" up_ad_slot="9350988841" up_ad_width="468" up_ad_height="60" />
 <p>
 
 == 1 column table ==
